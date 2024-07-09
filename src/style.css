@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-5xl font-bold mb-4;
+}
+
+h2 {
+  @apply text-4xl font-bold mb-4;
+}
+
+h3 {
+  @apply text-3xl font-bold mb-4;
+}
+
+h4 {
+  @apply text-2xl font-bold mb-4;
+}
+
+h5 {
+  @apply text-xl font-bold mb-4;
+}
+
+h6 {
+  @apply text-lg font-bold mb-4 text-black;
+}
+/* Estilos personalizados para listas */
+ul {
+  @apply list-disc list-inside ml-5; /* Aplica discos (bolitas) dentro de la lista con margen izquierdo */
+}
+
+li {
+  @apply text-lg mb-2; /* Aplica un tamaño de texto más grande y un margen inferior */
+}
+pre {
+  @apply bg-gray-900 text-white p-4 rounded-lg overflow-auto; /* Fondo oscuro, texto blanco, padding, bordes redondeados, overflow automático */
+  font-family: 'Fira Code', monospace; /* Familia de fuente monoespaciada */
+  font-size: 1rem; /* Tamaño de fuente */
+  line-height: 1.5; /* Altura de línea */
+}
+
+code {
+  @apply bg-gray-800 text-yellow-300 p-1 rounded; /* Fondo oscuro, texto amarillo, padding, bordes redondeados */
+  font-family: 'Fira Code', monospace; /* Familia de fuente monoespaciada */
+  font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+}
+
